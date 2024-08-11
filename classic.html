@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PAGE TITLE  -->
+    <title>Class Video Offer</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-200">
+    <div
+      class="
+        container
+        mx-auto
+        max-w-4xl
+        md:mt-8 md:px-5
+        mb-8
+        py-4
+        md:rounded-lg
+        bg-white
+        shadow-lg
+        text-center
+      "
+    >
+      <div class="text-3xl mb-5 px-5 md:text-5xl md:mb-7 md:px-0">
+        <!-- YOUR HEADLINE  -->
+        “The Quick And Easy To Automate Your Online Sales In Just 15 Minutes A
+        Day!”
+        <!-- (headline end) -->
+      </div>
+
+      <div class="aspect-w-16 aspect-h-9 mb-7">
+        <!-- YOUR VIDEO  -->
+        <video
+          src="https://player.vimeo.com/external/584506889.hd.mp4?s=983248238b4abe854dee769141c11ef0f25e47e2&profile_id=174"
+          poster="https://i.vimeocdn.com/video/1225155242?mw=600&mh=338"
+          controls
+          style="width: 100%"
+        ></video>
+        <!-- (video end) -->
+      </div>
+
+      <div class="mb-7">
+        <!-- YOUR BUY BUTTON -->
+        <form
+          action="https://sandbox.paypal.com/cgi-bin/webscr"
+          method="post"
+          target="_blank"
+        >
+          <input
+            type="hidden"
+            name="business"
+            value="sb-dyk6x7367177@business.example.com"
+          />
+          <input type="hidden" name="cmd" value="_xclick" />
+          <input
+            type="hidden"
+            name="item_name"
+            value="Hot Sauce-12oz. Bottle"
+          />
+          <input type="hidden" name="amount" value="5.95" />
+          <input type="hidden" name="currency_code" value="USD" />
+          <input
+            type="image"
+            name="submit"
+            src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif"
+            alt="Buy Now"
+          />
+          <img
+            alt=""
+            width="1"
+            height="1"
+            src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
+          />
+        </form>
+        <!-- (buy button end) -->
+      </div>
+    </div>
+    <div class="mt-12 text-center text-gray-400">
+      <!-- YOUR LEGAL LINKS  -->
+      <a href="#terms" target="_blank" class="mx-4">Terms</a>
+      <a href="#privacy" target="_blank" class="mx-4">Privacy</a>
+      <!-- (legal links end)  -->
+    </div>
+  </body>
+</html>
